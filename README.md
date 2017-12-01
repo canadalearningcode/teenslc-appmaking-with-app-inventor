@@ -6,7 +6,7 @@
 
 Lead Instructor Notes: <a href="https://docs.google.com/document/d/1d-YJZwSZ-xVIC5UAB3nCvGsKRwmQLFk-gmKMbcIk73A/edit?usp=sharing">Link to Notes</a>
 
-Preview Slides: <a href="https://ladieslearningcode.github.io/teenslc-appmaking-with=app-inventor/slides-en.html">ladieslearningcode.github.io/teenslc-appmaking-with-app-inventor/slides-en.html</a>
+Preview Slides: <a href="https://ladieslearningcode.github.io/teenslc-appmaking-with-app-inventor/slides-en.html">ladieslearningcode.github.io/teenslc-appmaking-with-app-inventor/slides-en.html</a>
 
 <!--Activity List: <a href="http://bit.ly/scratch-activity-list">bit.ly/...</a>-->
 
