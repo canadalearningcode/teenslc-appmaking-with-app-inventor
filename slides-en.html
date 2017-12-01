@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/teenslc-logo-stacked-white.png" alt="Ladies Learning Code logo">Welcome!</h1>
+
+
+      <div class="instructions">
+        <!-- ADD WIFI INFO HERE -->
+        <h2>Get <br>Connected</h2>
+        <p><strong>Wifi:</strong> CLC-Guest</p>
+        <p><strong>Password:</strong> Helloworld</p>
+
+        <hr>
+
+        <h2>Ensure <br>the App is<br> Installed</h2>
+        <p><strong>MIT AI2 Companion</strong>: Google Play store</p>
+        <p>Please ensure your android phone has the App Inventor Companion installed</p>
+
+    </div>
+
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Content created by Kassandra Lenters for <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Canada Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide intro">
+      <img class="logo" src="framework/img/teenslc-logo-white.png" alt="Canada Learning Code logo">
+      <h1 class="heading-bg">
+        <span>App Making<br>
+        with App Inventor</span>
+      </h1>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23girlslearningcode&src=typd">#teenslearningcode</a></li>
+      </ul>
+
+      <div class="sponsor">
+        <p>In partnership with<br> <img src="framework/img/telus-logo-white.svg" alt="Telus"></p>
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> for <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Canada Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Introductions
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Table of Contents
+
+        <div class="table-of-contents"></div>
+
+          <!-- Intro + Example Projects + Guest Speaker (10am)
+
+        Project Ideation + Wireframing (10:15am)
+
+        Intro to HTML + CSS (10:45am)
+
+        Lunch (12:30pm)
+
+        Building time! (1:15pm)
+
+        Demos + Pushing Live (3:30pm) -->
+
+       </script>
+    </section>
+
+      <!-- Insert Agenda for the workshop -->
+    <section class= "slide" data-markdown>
+      <script type="text/template">
+        #Agenda
+
+        Intro to App Making
+
+        Wireframes
+
+        Coding in App Inventor
+
+        <!--Break
+
+        [Activity]-->
+
+      </script>
+    </section>
+<!--
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+       ![Coders Code Banner](framework/img/workshop/scroll.png)
+         ## 1. ASK FOR HELP
+         ## 2. BE PRESENT
+         ## 3. TRY YOUR BEST!
+      </script>
+    </section>
+  -->
+
+    <section class="slide title" data-toc data-markdown>
+     <script type="text/template">
+       # What is Code?
+     </script>
+    </section>
+
+    <section class="slide" data-markdown>
+     <script type= "text/template">
+       #Code is..
+       ## A SET OF INSTRUCTIONS THAT TELLS THE COMPUTER WHAT TO DO.
+
+       <br>
+       ![Running robot gif](framework/img/workshop/runningrobot.gif)
+       ![Dancing robot gif](framework/img/workshop/dancingrobot.gif)
+       ![eating robot gif](framework/img/workshop/eatingrobot.gif)
+       ![Dancing robot gif](framework/img/workshop/dancingrobot2.gif)
+       ![Dancing robot gif](framework/img/workshop/bluerobot.gif)
+       ![Dancing robot gif](framework/img/workshop/partyrobot.gif)
+
+       <p> In code, we call a set of instructions an <strong style="color:#FF584E;">algorithm</strong>.</p><!-- .element: class="delayed" -->
+
+     </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Today's Project
+        ## We're learning how to create app<br> prototypes using App Inventor
+      </script>
+    </section>
+
+<!--
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Today's Project
+
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Why make applications?
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Why Apps?
+
+        * Stats
+          * 80% of internet users own a smartphone
+          * 80% of social media time is spent on mobile devices
+          * Users spend 90% of their time in apps compared to the mobile Web
+        * ![gamedesign](framework/img/workshop/sport-app.gif)
+
+        *three hyphens*
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://www.impactbnd.com/blog/mobile-marketing-statistics">Stat 1</a>
+            <a href="https://www.impactbnd.com/blog/mobile-marketing-statistics">Stat 2</a>
+            <a href="https://blogs.adobe.com/digitaleurope/mobile-marketing/10-interesting-mobile-app-usage-stats/">Stat 3</a>
+            <a href="https://dribbble.com/shots/2170347-GIF-for-Sport-App">Sport app GIF by Sergey Valiukh</a>
+          </div>
+
+      </script>
+    </section>
+-->
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        #Think, Pair, Share
+        ## What makes a great app?
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-toc data-markdown>
+      <script type="text/template">
+        #What makes a great app?
+
+        * Great Apps are...
+          * Reliable
+          * Focused (Does one thing well)
+          * Simple/clean design
+          * Intuitive (Understands audience needs)
+          * <em>What else?</em> <!-- .element: class="delayed" -->
+        * ![App design](framework/img/workshop/sport-app.gif)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://dribbble.com/shots/2170347-GIF-for-Sport-App">Sport app GIF by Sergey Valiukh</a>
+          </div>
+
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #Example: Shazam
+
+        * ![Shazam](framework/img/workshop/shazam.jpg)
+        * Design &amp; Function<!-- .element: class="delayed" -->
+          * Focus: Identifying songs<!-- .element: class="delayed" -->
+          * Design: Clean, simple<!-- .element: class="delayed" -->
+          * Function: Click on button while song is playing, app 'listens in' to identify, offers listening options<!-- .element: class="delayed" -->
+          * Navigation: Side-swipe for additional features<!-- .element: class="delayed" -->
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://brandfolder.com/shazam">Shazam image</a>
+          </div>
+
+
+      </script>
+    </section>
+
+<!--
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Brainstorming
+        ## What problem do you want to solve?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #UI/UX
+
+        <em>User Interface / User Experience</em>
+
+        ## Who is your user?
+
+        * What do they want or need?
+        * When will they use the app?
+        * How will they use the app?
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Design Thinking
+
+        Keep in mind...
+
+      </script>
+    </section>
+  -->
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Wireframes
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #example
+
+        ![Wireframe example](framework/img/workshop/wireframe.jpg)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Sketch it out
+
+        * Sketch out 2-6 screens
+        * Label each screen (e.g. index)
+        * Don't add too much detail - just use shapes for now
+        * Draw arrows to show how the user can navigate
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #App Inventor
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #App Inventor
+        * What is App Inventor?
+          * Maintained by MIT <!-- .element: class="delayed" -->
+          * Mobile Applications<!-- .element: class="delayed" -->
+          * Android OS <!-- .element: class="delayed" -->
+          * Open source, open distribution<!-- .element: class="delayed" -->
+          * Live testing via Companion<!-- .element: class="delayed" -->
+        * ![App Inventor logo](framework/img/workshop/appi-logo.png)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://appinventor.mit.edu/explore/blogs/karen/2017/08/about.html">MIT App Inventor logo</a>
+          </div>
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Look out for...
+
+        ![App Inventor blocks](framework/img/workshop/event-conditional.png)
+        ![App Inventor blocks](framework/img/workshop/var-function.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Getting Started
+
+        1. Go to <a href="https://www.appinventor.mit.edu">appinventor.mit.edu</a> > "Create Apps!"
+        1. Sign in: <strong>toronto@teenslearningcode.com / Helloteens123</strong>
+        1. Open “TEMPLATE”
+        1. Projects > "Save project as.." (your name)
+        1. “Connect” > “AI Companion”
+        1. Type in code or scan QR code
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Using the Companion
+
+        ![Testing using the Companion](framework/img/workshop/testing.png)
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Code Along
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Resources
+
+        * <strong>Colours</strong>
+          * <a href="https://color.adobe.com">color.adobe.com</a>
+          * <a href="http://colours.neilorangepeel.com/">colours.neilorangepeel.com</a>
+        * <strong>Images</strong> (creative commons)
+          * <a href="https://www.pexels.com/">pexels.com</a> (photos)
+          * <a href="https://thenounproject.com/">thenounproject.com</a> (icons)
+        * <strong>App Inventor support</strong>
+          * <a href="http://www.appinventor.org/">appinventor.org</a>
+          * <a href="http://bit.ly/appi-concept-cards">bit.ly/appi-concept-cards</a>
+          * <a href="https://puravidaapps.com/">puravidaapps.com</a>
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Work Session
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Save!
+      </script>
+    </section>
+
+<!--
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #DEMOS
+      </script>
+    </section>
+-->
+
+    <main>
+      <section class="slide" data-toc data-markdown>
+        <script type="text/template">
+          # Today I Learned...
+
+          <p><strong>I can</strong> develop an app prototype</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> design an app UI using wireframes</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> add screens and format content using layouts</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> use events and conditionals to make things happen in my app</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> incorporate media and sensors into my app</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> use App Inventor to <strong>KEEP CODING!</p><!-- .element: class="delayed" -->
+
+        </script>
+      </section>
+
+
+    <!-- Last slide -->
+    <section class="slide last">
+      <h1>Thank you!</h1>
+      <h2 class="heading-bg">
+        <span>Appmaking<br> with App Inventor</span>
+      </h2>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23girlslearningcode&src=typd">#teenslearningcode</a></li>
+      </ul>
+
+      <p class="attribution">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> based on <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+
+</body>
+</html>
