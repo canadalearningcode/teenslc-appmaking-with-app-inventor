@@ -1,14 +1,14 @@
 ## English: (Scroll down for French)
 
-# Teens Learning Code: Appmaking with App Inventor
+# Teens Learning Code: App Making with App Inventor
 
 ## Quick Links
 
-Preview Lead Instructor Notes: <a href="https://ladieslearningcode.github.io/teenslc-appmaking=with=app-inventor/notes-en.html">ladieslearningcode.github.io/teenslc-appmaking-with-app-inventor/notes-en.html</a>
+Lead Instructor Notes: <a href="https://docs.google.com/document/d/1d-YJZwSZ-xVIC5UAB3nCvGsKRwmQLFk-gmKMbcIk73A/edit?usp=sharing">Link to Notes</a>
 
 Preview Slides: <a href="https://ladieslearningcode.github.io/teenslc-appmaking-with=app-inventor/slides-en.html">ladieslearningcode.github.io/teenslc-appmaking-with-app-inventor/slides-en.html</a>
 
-Activity List: <a href="http://bit.ly/scratch-activity-list">bit.ly/...</a> <!--replace-->
+<!--Activity List: <a href="http://bit.ly/scratch-activity-list">bit.ly/...</a>-->
 
 ## Additional Resources (Optional)
 
@@ -22,24 +22,25 @@ Youth Facilitator / Lead Instructor Handbook: <a href="http://bit.ly/youth-facil
 1 Week to Go
 
 * Download this folder.
-* Read the Notes for context (open in your browser).
+* Read through the Lead Instructor Notes for context
 * Connect with Chapter Lead about borrowing an Android phone if you don't have access to one already
 
 3 Days to Go
 
-* Select one activity from the Activity List
+<!--* Select one activity from the Activity List-->
 * Ensure that the <a href="https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3&hl=en">MIT App Inventor Companion</a> app is installed on the/your Android phone
+* Practice going through the Code-Along
 
-2 Days To Go
+<!--2 Days To Go
 
 * Update the slides (in a text editor, like <a href="https://atom.io/">atom.io</a>):
   * Insert the network info (Slide 1 and 25)
   * Edit the Agenda to adjust timing and/or activities, if applicable (Slide 5)
   * Replace the Example Project URL, if applicable (Slide 10)
-
+-->
 1 Day to Go
 
-* Print the Notes and Solution Sheet(s) (found in Activity List) to bring to the workshop.
+* Print the Notes <!--and Solution Sheet(s) (found in Activity List) to bring to the workshop.-->
 * Pack the phone charger to bring along to the workshop
 
 ## During the Workshop
